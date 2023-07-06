@@ -12,7 +12,7 @@
 
 body {
     width: 100%;
-    height: 100vw;
+    
 }
 
 
@@ -81,4 +81,34 @@ body {
 
 .table-section{
     padding:20px 20px;
+    
+}
+
+.table-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.table-section a:hover{
+    color: gold;
+    transition: 0.52s;
+}
+
+table th{
+    padding: 20px 20px;
+}
+
+table img{
+    width: 150px;
+    padding-right: 10px;
+}
+
+                     /*TEXT AREA AND FOOTER*/
+
+.textarea {
+    
+}         
+
+footer {
+    background-image: linear-gradient(to top, #d3d3d3, #deddde, #e9e8e8, #f4f2f3, #fffdfd);;
 }
