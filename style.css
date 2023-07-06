@@ -36,7 +36,13 @@ body {
 }
 
 
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-@media screen {
+.allLogo {
+    width: 100px;
     
 }
