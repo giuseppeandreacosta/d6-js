@@ -105,10 +105,22 @@ table img{
 
                      /*TEXT AREA AND FOOTER*/
 
-.textarea {
-    
-}         
+
 
 footer {
     background-image: linear-gradient(to top, #d3d3d3, #deddde, #e9e8e8, #f4f2f3, #fffdfd);;
 }
+
+
+
+
+
+.newLink {
+    text-decoration: double;
+    color: green;
+  } 
+
+
+  .hidden {
+    visibility: hidden;
+  }

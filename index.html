@@ -13,7 +13,9 @@
         <header>
             <div class="topbar">
                 <div class="logo">
-                    <h1>Phone Mania</h1>
+                    <h1 id="myh1">Phone Mania</h1>
+                    <button onclick="changeH1Content('Nuovo contenuto del tag h1')">Cambia contenuto h1</button>
+                    <button onclick="returnH1Content('Vecchio contenuto h1')">Reimposta precendente h1</button>
                 </div>
                 <div class="search"><input class="input" type="text" placeholder="Search">
                     <button class="search-button"><img class=" search-img" src="/assets/img/icons8-ricerca-50.png"
@@ -119,6 +121,9 @@
             <div id="address">Corso Vittorio Emanuele III 48,Palermo</div>
         </footer>
     </div>
+
+
+    <script src="index.js"></script>
 </body>
 
 </html>
